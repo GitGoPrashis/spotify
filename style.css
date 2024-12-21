@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: var(--body-backcolor); 
+/* color: var(--text-color); */
+font-family: var(--font);
+}
+:root{
+/* --border-ratio: 2px solid white; */
+--body-backcolor: black;
+--text-color:white;
+--font:Arial;
+--op : 0;
+}
+.main-container{
+
+
+}
+
+
+
+.border{
+border: var(--border-ratio);
+margin: 1px;
+
+}
+.left{
+width: 25vw;
+/* height: 146vh; */
+padding: 8px ;
+color: var(--text-color);
+/* background-color: var(--body-backcolor); */
+/* background-color: #121212; */
+border-radius: 12px;
+
+}
+.home{
+background-color: #121212;
+color: #a9a9a9;
+transition: 1s;
+border-radius: 12px;
+}
+.home:hover{
+    color: white;
+}
+.home ul li{
+    list-style: none;
+    padding: 8px 1px;
+    padding-left: 23px;
+    margin-top: 20px;
+   
+    
+}
+.home ul li i{
+    font-size: 25px;
+    
+}
+.home ul li span{
+    padding-left: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.logo{
+    margin-left: 20px;
+    height: 30px;
+    filter: invert(1);
+    
+}
+.full-library{
+    background-color: #121212;
+    border-radius: 12px;
+}
+.library{
+    padding: 8px 1px;
+    padding-left: 13px; 
+    /* border: 1px solid white; */
+    color: #a9a9a9;
+    margin-top: 10px;
+    background-color: #121212;
+    padding-bottom: 10px;
+   transition: 1s;
+   border-radius: 12px;
+   
+
+}
+.library:hover{
+    color: white;
+}
+.library i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.library span{
+    padding-left: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.library a{
+    margin-left: 139px;
+    font-size: 15px;
+}
+.library a i{
+    font-size: 15px;
+}
+.information{
+    margin-top: 20px;
+    margin: 5px;
+    background-color: #242323;
+    padding: 15px 0 0 30px;
+    /* border: 1px solid white; */
+    height: 100px;
+    border-radius: 12px;
+}
+
+.full-information {
+    margin-top: 20px;
+    height: 120px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.full-information::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+}
+
+.full-information::-webkit-scrollbar-thumb {
+    background-color: black; /* Set the color of the thumb */
+}
+
+.full-information::-webkit-scrollbar-track {
+    background-color: #2c2828; /* Set the color of the track */
+}
+
+
+
+
+/* .full-information{
+    margin-top: 20px;
+    height: 120px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+::-webkit-scrollbar-thumb{
+    background: #943f3f;
+    border-radius: 20px;
+} */
+.information h4{
+    font-weight: 800;
+}
+.information P{
+    padding-top: 15px;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.information button{
+    border: none;
+    font-size: 11px;
+    height: 33px;
+    width: 125px;
+    border-radius: 18px;
+    margin-top: 16px;
+    background-color: white;
+    font-weight: bolder;
+    
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin: 70px 0 0 10px;
+}
+.link-1 a{
+text-decoration: none;
+color: #a9a9a9;
+font-size: 9px;
+}
+.button1{
+      padding: 8px 15px;  
+    border: 0.2px solid #a9a9a9;
+    margin: 20px 40px 30px 50px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+   
+}
+.button1:hover{
+    border: 1px solid white;
+    
+    
+}
+.button1 a{
+    font-size: 14px;
+}
+.copyright{
+    padding: 10px 0 10px 30px;
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 9px;
+letter-spacing: 1px;
+
+}
+.copyright p{
+    text-decoration: underline;
+}
+
+.right {
+    position: relative;
+    width: 75vw;
+    background-color: #181717;
+    border-radius: 12px;
+    /* overflow-y: auto; Ensure scrollbar appears only when needed */
+  }
+  
+  /* WebKit Scrollbar Styles */
+  
+
+
+/* .right{
+ position: relative;
+width: 75vw;
+background-color: #181717;
+border-radius: 12px;
+} */
+/* .navbar i{
+    color: white;
+} */
+.header{
+    display: flex;
+    justify-content: space-between;
+   border-radius: 12px;
+    background-color: #121212;
+}
+.header > *{
+    padding: 20px;
+}
+.navbar i{
+    padding: 15px;
+    font-size: 12px;
+    background-color:  #1a1919;
+    border-radius: 50%;
+    text-align: center;
+    color: #a7a2a2;
+}
+.button2{
+    display: flex;
+    gap: 8px;
+}
+.button2 button{
+    border: 1px solid white;
+    padding: 15px 32px;
+    background-color: white;
+    color: #121212;
+    border-radius: 26px;
+    font-size: 11px;
+    font-weight: 800;
+   border: none;
+    
+    
+}
+
+/* .button2 button:hover{
+    font-weight: 900;
+} */
+ #btn{
+    background-color: #242323;
+    color: #a9a9a9;
+}
+.playlists h1{
+    color: white;
+    font-size: 18px;
+    margin: 10px 0 0 20px;
+    padding: 10px;
+}
+.playlists a{
+    margin-left: 720px; 
+    font-size: 10px;
+    color: #a7a2a2;
+}
+.playlists h1:hover{
+    text-decoration: underline;
+}
+
+.playlists-box {
+    /* Your existing styles */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 500px;
+
+}
+
+
+
+.playlists-box::-webkit-scrollbar {
+width: 12px; /* Adjust the width as needed */
+}
+
+.playlists-box::-webkit-scrollbar-thumb {
+background-color: #575353; /* Set the color of the thumb */
+}
+
+.playlists-box::-webkit-scrollbar-track {
+background-color: black; /* Set the color of the track */
+}
+
+
+/* .playlists-box{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+} */
+.playlists-box .box{
+    width: 178px;
+    color: white;
+    background-color: #242222;
+    height: 257px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.box img{
+    width: 80%;
+    padding: 19px 16px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.box h3{
+margin: 0 0 0 18px;
+font-size: 12px;
+font-weight: 800;
+}
+.box p{
+margin: 6px 0 0 19px;
+color: #a7a2a2;
+font-size: 11px;
+}
+.box i{
+    color: #23bf23;
+    font-size: 46px;
+    position: absolute;
+    top: 104px;
+    
+     right: 27px; 
+    opacity: var(--op);
+     transition: all 1s ease-out; 
+    cursor: pointer;
+}
+.box i:hover{
+    /* opacity: 1; */
+   
+    
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #121212;
+    --op:1;
+}
+/* .box-4{
+    margin-right: 550px;
+}
+.box-5{
+    /* margin-left: 550px; */
+.playbar{
+    height: 54px;
+    width: 100%;
+    background-color: #444444;
+    position: absolute;
+    bottom: 18px;
+    position: fixed;
+    border-radius: 10px;
+    transition: 1s all ease;
+   
+}
+.playbar:hover{
+    background-color: #1e851e;
+}
+.playbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-right: 281px;
+}
+.playbar-image{
+    width: 15%;
+    height: 40px;
+    position: relative;
+   
+    
+}
+.playbar-image i{
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    bottom: -20px;
+    left: 46px;
+}
+.playbar-image img{
+    height: 62px;
+    width: 75px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.playbar-icon{
+    width: 25%;
+    height: 30px;
+   
+    text-align: center;
+    
+   
+}
+.playbar-icon i{
+    font-size: 21px;
+    color: white;
+    padding: 5px 32px 0 0;
+}
+.playbar-sound{
+    width: 21%;
+    height: 30px;
+   
+}
+.playbar-sound i{
+    font-size: 21px;
+    color: #c7d5c2;
+    /* margin-left: 40px; */
+    padding: 5px 22px 0 0;
+}
+.playbar-sound a{
+    color: #e5d5d5;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.playbar-time{
+    width: 905px;
+    height: 0.5px;
+    border: 2px solid #bbadad;
+    background-color: #1a1919;
+    margin: 8px 75px;
+    border-radius: 20px;
+
+}
